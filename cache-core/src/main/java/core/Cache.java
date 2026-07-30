@@ -1,3 +1,6 @@
+package core;
+
+
 public interface Cache<K, V>
     {
         void put(K key, V value);
